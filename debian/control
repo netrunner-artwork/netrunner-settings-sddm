@@ -1,0 +1,13 @@
+Source: netrunner-settings-sddm
+Section: admin
+Priority: optional
+Maintainer: Leszek Lesner <leszek@zevenos.com>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.7.2
+
+Package: netrunner-settings-sddm
+Architecture: all
+Replaces: netrunner-default-settings (<< 1.6.1)
+Breaks: netrunner-default-settings (<< 1.6.1)
+Description: SDDM settings
+  This package provides the default sddm login manager configuration for Netrunner.
