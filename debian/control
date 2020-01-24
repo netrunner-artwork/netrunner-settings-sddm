@@ -7,6 +7,7 @@ Standards-Version: 3.7.2
 
 Package: netrunner-settings-sddm
 Architecture: all
+Multi-Arch: foreign
 Replaces: netrunner-default-settings (<< 1.6.1)
 Breaks: netrunner-default-settings (<< 1.6.1)
 Recommends: artwork-sddm-sugar-dark
